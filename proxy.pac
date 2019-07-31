@@ -1852,8 +1852,6 @@ var rules = [
             "girlbanker.com",
             "git.io",
             "gitbooks.io",
-            "github.com",
-            "github.io",
             "gizlen.net",
             "gjczz.com",
             "glass8.eu",

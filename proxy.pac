@@ -3,7 +3,7 @@
  * GFWList Last-Modified: 2019-07-15 07:40:46
  */
 
-var proxy = 'HTTPS 192.168.1.110:60287';
+
 var rules = [
     [
         [],
@@ -5574,7 +5574,7 @@ function testHost(host, index) {
         for (var j = 0; j < rules[index][i].length; j++) {
             lastRule = rules[index][i][j];
             if (host == lastRule || host.endsWith('.' + lastRule))
-                return i % 2 == 0 ? 'DIRECT' : proxy;
+                return i % 2 == 0 ? 'DIRECT' : 'PROXY 192.168.1.110:60287';
         }
     }
     lastRule = '';

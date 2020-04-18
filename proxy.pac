@@ -1,6 +1,6 @@
 // http://pac.itzmx.com
 
-var proxy = "PROXY 192.168.1.104:6028;";
+var proxy = "PROXY 192.168.1.113:10086;";
 
 var domains = {
   "pinterest.com": 1,
